@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle, #FFD582, #FABABA); /* Radial gradient background */
+}
+
+.welcome-page, .login-page, .class-page, .attendance-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 30px; /* Rounded corners */
+  background: linear-gradient(83deg, #83A8D3 54%, #558195); /* Linear gradient background */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.class-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.class-card {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  padding: 20px;
+  background: linear-gradient(83deg, #83A8D3 54%, #558195); /* Linear gradient background */
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.student-list {
+  margin-top: 20px;
+}
+
+.student-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.navbar {
+  background: linear-gradient(90deg, #b8d7fb 54%, #2798cc); /* Linear gradient background */
+  padding: 10px;
+  text-align: right;
+}
+
+.navbar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: radial-gradient(circle, #FFD582, #FABABA); /* Radial gradient background */
+  border: none;
+  cursor: pointer;
+  color: #000000;
+}
+
+.attendance-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.student-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-list td {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.student-list td input[type="checkbox"] {
+  margin-left: 5px;
+}
+
+.student-list td:first-child {
+  text-align: right;
+}

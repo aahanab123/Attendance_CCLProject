@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <button onclick="location.href='summary.html'">See Summary</button>
+    </div>
+    <div class="attendance-page">
+        <div class="student-list">
+            <h3 id="current-date"></h3> <!-- Display current date -->
+            <table>
+                <tr>
+                    <td>1.</td>
+                    <td>Aahana</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td> <!-- Checkbox for Aahana -->
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Bharat</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td> <!-- Checkbox for Bharat -->
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Amey</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td> <!-- Checkbox for Amey -->
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <button id="mark-attendance-btn">Mark Attendance</button> <!-- Mark Attendance button -->
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="main-content">
+            <!-- Content for attendance page will be added here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
